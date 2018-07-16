@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+body {
+  background: url(../img/ken.jpg) no-repeat;
+  background-size: 100% 200%;
+  color: lime;
+  padding: 100px;
+}
+h1 {
+  text-align: center;
+font-size: 35px;
+font-family: 'Acme', sans-serif;
+}
+h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+p20
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 50px;
+}
+
+.btn {
+  border-radius: 9px;
+  font-family: 'Acme', sans-serif;
+  color: blue;
+  font-size: 135%;
+  text-align: center;
+  padding: 10px 20px;
+  border: solid blue 3px;
+  text-decoration: none;
+}
+.btn:hover {
+  color: white;
+  border: solid white;
+}
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+body {
+  margin: 1em;
+}
+
+.social-icons {
+  list-style-type: none;
+  margin: 0 auto 5px;
+  padding: 0;
+  width: 250px;
+  height: 100px;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.tab {
+  margin-right:10px;
+  border-radius: 0 0 25px 25px;
+}
+
+.circle {
+  padding:20px 24px;
+  width: 40px;
+  font-size: 20px;
+  text-align:center ;
+  background: #fff;
+  border-radius: 33px;
+  border: solid 1px;
+}
+
+.fa-instagram {
+  color: hsl(221, 44%, 41%);
+  border-color: hsl(221, 44%, 41%);
+  align-items: center;
+}
+
+.fa-instagram:hover {
+  background-color: rgb(205, 72, 107);
+}
+
+.fa-twitter {
+  color: hsl(195, 100%, 60%);
+  border-color: hsl(195, 100%, 60%);
+}
+
+.fa-twitter:hover {
+  background-color: hsl(195, 100%, 60%);
+}
+
+.fa-facebook {
+  color: hsl(7, 71%, 55%);
+  border-color: hsl(7, 71%, 55%);
+}
+
+.fa-facebook:hover {
+  background-color: hsl(7, 71%, 55%);
+}
+
+.fa-instagram:hover, .fa-twitter:hover, .fa-google-plus:hover, {
+  color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.shadow .tab {
+  background: none;
+}
+
+.shadow .circle {
+  box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .4);
+}
+
+.shadow .fa-instagram,
+.shadow .fa-twitter,
+.shadow .fa-google-plus, {
+  border-color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 11px;
+
+}
+
+.squares .tab {
+  background: none;
+}
+
+.square {
+  padding: 9px 9px;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.fa-instagram.square {
+  background-color: rgb(205, 72, 107);
+  border: 1px solid hsl(221, 44%, 41%);
+  color: #fff;
+}
+
+.fa-instagram.square:hover {
+  background-color: rgb(205, 72, 107);
+  border-color: hsl(221, 44%, 41%);
+  color: hsl(221, 44%, 41%);
+}
+
+.fa-twitter.square {
+  background-color: hsl(195, 100%, 60%);
+  border: 1px solid hsl(195, 100%, 60%);
+  color: #fff;
+}
+
+.fa-twitter.square:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(195, 100%, 60%);
+  color: hsl(195, 100%, 60%);
+}
+
+.fa-google-plus.square {
+  background-color: hsl(7, 71%, 55%);
+  border: 1px solid hsl(7, 71%, 55%);
+  color: #fff;
+}
+
+.fa-google-plus.square:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(7, 71%, 55%);
+  color: hsl(7, 71%, 55%);
+}
+h4{
+  color: black;
+
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: url(../img/game.jpg);
+  background-repeat: no-repeat 50% 50%;
+  background-size: cover;
+  display: table;
+  top: 0;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content h1 {
+  font-family: 'Faster One', cursive;
+  color: white;
+}
+.btn {
+  border-radius: 9px;
+  font-family: 'Acme', sans-serif;
+  color: red;
+  font-size: 135%;
+  padding: 10px 20px;
+  border: solid red 3px;
+  text-decoration: none;
+}
+.btn:hover {
+  color: white;
+  border: solid white;
+}
